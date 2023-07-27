@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-image: url(./assets/background-image.jpg);
+  background-size: cover;
+  padding: 50px;
+  position: fixed;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  width: 450px;
+}
+.inputForm > input {
+  padding: 15px 20px;
+  border-radius: 50px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+.inputForm > h1 {
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 15px;
+  letter-spacing: 3px;
+}
+
+input[type="file"] {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+}
+.inputImage {
+  background: white;
+  padding: 5px 5px;
+  border-radius: 50px;
+}
+::-webkit-file-upload-button {
+  background-color: rgb(249, 184, 58);
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  height: 40px;
+}
+
+.inputForm button {
+  width: 120px;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(249, 184, 58);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.inputForm button:hover {
+  background-color: rgb(228, 156, 11);
+  cursor: pointer;
+}
+.contactCard {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 50px;
+  padding-left: 550px;
+}
